@@ -19,6 +19,7 @@
     * [04. Care Planning: Goals & Outcomes](case-001-copd-exacerbation/04-care-planning-goals.md)
   * **Implementation**
     * [05. Nursing Interventions](case-001-copd-exacerbation/05-nursing-interventions.md)
+    * [06. Patient Education & Teaching Plans](case-001-copd-exacerbation/06-patient-education.md)
   * **Medications**
     * [Albuterol](case-001-copd-exacerbation/medications/albuterol.md)
     * [Tiotropium](case-001-copd-exacerbation/medications/tiotropium.md)
