@@ -14,6 +14,7 @@
     * [02f. Orem's Self-Care Deficit Theory](case-001-copd-exacerbation/02f-orems-self-care-deficit-theory.md)
   * **Diagnosis**
     * [03. Nursing Diagnoses (PES Format)](case-001-copd-exacerbation/03-nursing-diagnoses.md)
+    * [03b. Prioritization Frameworks](case-001-copd-exacerbation/03b-prioritization-frameworks.md)
   * **Medications**
     * [Albuterol](case-001-copd-exacerbation/medications/albuterol.md)
     * [Tiotropium](case-001-copd-exacerbation/medications/tiotropium.md)
