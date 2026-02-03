@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nursing Process Cases</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Case studies for nursing education demonstrating application of the nursing process">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .markdown-section details summary {
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    .markdown-section details {
+      border-left: 3px solid #42b983;
+      padding-left: 15px;
+      margin: 15px 0;
+    }
+    .markdown-section table {
+      display: table;
+      width: 100%;
+    }
+    /* Dark mode styles */
+    body.dark-mode {
+      background-color: #1c1c1c;
+      color: #ddd;
+    }
+    body.dark-mode .sidebar {
+      background-color: #252525;
+      border-right: 1px solid #333;
+    }
+    body.dark-mode .sidebar li a {
+      color: #ddd;
+    }
+    body.dark-mode .sidebar li a:hover {
+      color: #42b983;
+    }
+    body.dark-mode .markdown-section {
+      color: #ddd;
+    }
+    body.dark-mode .markdown-section code {
+      background-color: #2d2d2d;
+      color: #ccc;
+    }
+    body.dark-mode .markdown-section pre {
+      background-color: #2d2d2d;
+    }
+    body.dark-mode .markdown-section table {
+      border-color: #444;
+    }
+    body.dark-mode .markdown-section table th,
+    body.dark-mode .markdown-section table td {
+      border-color: #444;
+    }
+    body.dark-mode .markdown-section details summary {
+      background: #2d2d2d;
+    }
+    /* Dark mode toggle button */
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #42b983;
+      border: none;
+      cursor: pointer;
+      font-size: 24px;
+      z-index: 9999;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .dark-mode-toggle:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+  
+  <script>
+    // Dark mode toggle
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      const button = document.querySelector('.dark-mode-toggle');
+      const isDark = document.body.classList.contains('dark-mode');
+      button.textContent = isDark ? '☀️' : '🌙';
+      localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+    }
+    
+    // Check for saved dark mode preference
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      document.body.classList.add('dark-mode');
+      document.querySelector('.dark-mode-toggle').textContent = '☀️';
+    }
+    
+    window.$docsify = {
+      name: 'Nursing Process Cases',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search',
+        noData: 'No Results!',
+        depth: 6
+      },
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied'
+      }
+    }
+  </script>
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Search plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <!-- Pagination plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <!-- Copy code plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <!-- Zoom image plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>
