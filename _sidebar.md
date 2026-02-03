@@ -12,6 +12,8 @@
     * [02d. Functional Assessment (ADL/IADL)](case-001-copd-exacerbation/02d-functional-assessment-adls-iadls.md)
     * [02e. Roy's Adaptation Model](case-001-copd-exacerbation/02e-roys-adaptation-model.md)
     * [02f. Orem's Self-Care Deficit Theory](case-001-copd-exacerbation/02f-orems-self-care-deficit-theory.md)
+  * **Diagnosis**
+    * [03. Nursing Diagnoses (PES Format)](case-001-copd-exacerbation/03-nursing-diagnoses.md)
   * **Medications**
     * [Albuterol](case-001-copd-exacerbation/medications/albuterol.md)
     * [Tiotropium](case-001-copd-exacerbation/medications/tiotropium.md)
