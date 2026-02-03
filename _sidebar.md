@@ -17,6 +17,8 @@
     * [03b. Prioritization Frameworks](case-001-copd-exacerbation/03b-prioritization-frameworks.md)
   * **Planning**
     * [04. Care Planning: Goals & Outcomes](case-001-copd-exacerbation/04-care-planning-goals.md)
+  * **Implementation**
+    * [05. Nursing Interventions](case-001-copd-exacerbation/05-nursing-interventions.md)
   * **Medications**
     * [Albuterol](case-001-copd-exacerbation/medications/albuterol.md)
     * [Tiotropium](case-001-copd-exacerbation/medications/tiotropium.md)
